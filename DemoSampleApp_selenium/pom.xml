@@ -3,6 +3,11 @@
   <groupId>demoPortal_SeleniumTestCases</groupId>
   <artifactId>demoPortal_SeleniumTestCases</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -16,10 +21,10 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
+        <version>3.8.0</version>
         <configuration>
-          <source/>
-          <target/>
+            <source/>
+            <target/>
         </configuration>
       </plugin>
       
