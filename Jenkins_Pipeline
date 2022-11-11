@@ -16,14 +16,14 @@ pipeline{
 		{
 			steps
 			{
-				sh "mvn install"
+				sh "bash mvn install"
 			}
 		}
 		stage ('Unit Testing')
 		{
 			steps
 			{
-				sh "mvn test"
+				sh "bash mvn test"
 			}
 		}
 		stage ('Sonar Analysis')
