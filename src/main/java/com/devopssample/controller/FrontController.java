@@ -13,8 +13,7 @@ public class FrontController{
 	
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public ModelAndView getHomeView(HttpServletRequest request) {
-		String HOME = "home";
-		ModelAndView model = new ModelAndView(HOME);
+		ModelAndView model = new ModelAndView("home");
 		return model;
 	}
 
