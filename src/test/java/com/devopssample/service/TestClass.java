@@ -31,7 +31,7 @@ public class TestClass extends TestCase {
 		int total = 9;
 		int sum = add(10, 5);
 		assertNotSame(sum, total);
-		System.out.println("Random Checkin");
+		System.out.println("Random Checkin 2");
 	}
 
 	@Test
