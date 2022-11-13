@@ -30,7 +30,7 @@ pipeline{
 		{
 			steps
 			{
-				withSonarQubeEnv(installationName: 'Pipeline_Sonar')
+				withSonarQubeEnv(installationName: 'Test_Sonar')
 				{
 					bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar"
 				}
