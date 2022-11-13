@@ -16,5 +16,4 @@ public class FrontController{
 		ModelAndView model = new ModelAndView("home");
 		return model;
 	}*/
-
 }
