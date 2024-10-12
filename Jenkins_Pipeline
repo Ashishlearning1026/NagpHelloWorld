@@ -42,9 +42,9 @@ pipeline{
 			{
 				rtMavenDeployer (
                     id: 'deployer',
-                    serverId: '123Ashrepo',
-                    releaseRepo: 'AshishNagp',
-                    snapshotRepo: 'AshishNagp'
+                    serverId: 'Artifactory',
+                    releaseRepo: 'ashish.nagp',
+                    snapshotRepo: 'ashish.nagp'
                 )
                 rtMavenRun (
                     pom: 'pom.xml',
@@ -52,7 +52,7 @@ pipeline{
                     deployerId: 'deployer',
                 )
                 rtPublishBuildInfo (
-                    serverId: '123Ashrepo',
+                    serverId: 'Artifactory',
                 )
 			}
 		}
